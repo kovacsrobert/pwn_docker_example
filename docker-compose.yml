@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pwn-image:
+    container_name: pwn-image
+    image: pwn-image
+    build: .
+    volumes:
+      - /tmp/ctf:/ctf
